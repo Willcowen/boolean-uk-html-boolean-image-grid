@@ -1,0 +1,77 @@
+* {
+    margin: 0px; 
+    padding: 0px;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header,
+footer {
+    height: 60px;
+    background-color:rgb(1, 20, 52);
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: repeat(4, 450px);
+    height: 100%;
+    gap: 8px;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 3%;
+    overflow: hidden;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.laptop {
+    width: 100%;
+    border-bottom: none;
+}
+
+.icon-bar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px;
+    gap: 5px;
+}
+
+.card p {
+    padding: 10px;
+    text-align: left;
+}
+
+.icons {
+    width: 30px;
+}
+
+.boolean {
+    width: 55px;
+    border-radius: 50%;
+    position: absolute;
+    top: 2%;
+    left: 77%;
+}
+
+.boolean2 {
+    width: 55px;
+    border-radius: 50%;
+    position: absolute;
+}
+
